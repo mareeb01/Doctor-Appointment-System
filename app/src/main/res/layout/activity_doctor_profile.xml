@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patient.doctor_profile"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:padding="15dp"
+                android:fontFamily="@font/joannab"
+                android:text="Doctor Name"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="25dp">
+
+            </TextView>
+
+
+
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:elevation="5dp"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="10dp">
+
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="91dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/doctor_image" />
+
+            <TextView
+                android:id="@+id/docname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="13dp"
+                android:fontFamily="@font/joannab"
+                android:text="Doc Name"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/docabout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="38dp"
+                android:fontFamily="@font/jonalight"
+                android:text="Doc dept / qualification"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:text="About Doctor"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_details"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicuelementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula"
+            android:textColor="#000000"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:text="Specilization"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_specialization"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:text="20$"
+            android:textColor="#000000"
+            android:textSize="16dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:text="Charges"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_charges"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:text="20$"
+            android:textColor="#000000"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:text="Working Time"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv_working_hours"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:text="Mon - Fri, 08:00 AM - 05:00PM"
+            android:textColor="#000000"
+            android:textSize="16dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:text="Location"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/locat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:text="Address"
+            android:textColor="#000000"
+            android:textSize="16dp">
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/booknow"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_curves"
+            android:fontFamily="@font/joannab"
+            android:hint="Book Appointment"
+            android:onClick="book_to_patient_detail"
+            android:textColorHint="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            >
+        </Button>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

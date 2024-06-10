@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctors.doc_homescreen"
+    android:weightSum="4"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/joannab"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:text="Dashboard"
+                android:textSize="24dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/greetingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="btn_appointment"
+
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/joannab"
+                android:textSize="18dp"
+                android:text="Good Morning, " />
+
+
+
+
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/jonalight"
+                android:textSize="16dp"
+                android:text="Here's what your day looks like." />
+
+
+
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#0098FE">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/joannab"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="18dp"
+                android:textColor="#ffffff"
+                android:text="Today date" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:id="@+id/date"
+                android:fontFamily="@font/jonalight"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="52dp"
+                android:textColor="#ffffff"
+                android:text="Today Date" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:fontFamily="@font/jonalight"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="82dp"
+                android:textColor="#ffffff"
+                android:text="Hello There" />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#0098FE">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="@font/joannab"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="18dp"
+                android:textColor="#ffffff"
+                android:text="Today Quote" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:fontFamily="@font/jonalight"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:textColor="#ffffff"
+                android:text="Laughing decreases blood pressure and increases blood flow." />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+</HorizontalScrollView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:onClick="btn_appointment"
+            android:elevation="15dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="10dp">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/jonalight"
+                android:layout_marginTop="13dp"
+                android:text="Appointments"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="310dp"
+                android:src="@drawable/arrow_right">
+
+
+            </ImageView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Other content above the LinearLayout -->
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/hii_top"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="doc_dashboard"
+                    android:src="@drawable/home">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="53dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/appointment"
+                    android:onClick="btn_appointment"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/option">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="35dp"
+                    android:onClick="doc_profile"
+                    android:src="@drawable/profile"></ImageView>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

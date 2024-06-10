@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctors.doc_login">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Doctor"
+                    android:textColor="#D53345"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" Appointment"
+                    android:textColor="#183E9F"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:text="System"
+                android:textColor="#1B9CE4"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="#000000"
+                android:text="Sign in to your account"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#000000"
+                android:text="Enter Your Email:"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_doc_email"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:layout_marginTop="13dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   Email">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:text="Enter Your Password:"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:id="@+id/et_doc_password"
+                android:paddingStart="10dp"
+                android:background="@drawable/et_input"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:hint="   Password">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btn_doc_login"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/btn_curves"
+                android:hint="Sign In"
+                android:fontFamily="@font/joannab"
+                android:textColorHint="#ffffff"
+                android:textSize="18dp">
+
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textSize="18dp"
+                android:id="@+id/tv_forgotPassword"
+                android:textColor="#000000"
+                android:text="Forget Password">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/joannab"
+                android:text="Not have an account?"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/doc_signup"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_curves"
+                android:hint="Sign Up"
+                android:textColorHint="#ffffff"
+                android:textSize="18dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

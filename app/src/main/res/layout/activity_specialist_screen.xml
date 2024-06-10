@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Patient.specialist_screen">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="23dp"
+                android:onClick="btn_home"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_arrow">
+
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/joannab"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+                android:text="Specialist Doctor"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#FF4E6F">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="101dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    app:srcCompat="@drawable/health_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="130dp"
+                    android:textColor="#ffffff"
+                    android:text="Cardio Speclist" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                app:cardBackgroundColor="#4182FF"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="101dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    app:srcCompat="@drawable/health_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="130dp"
+                    android:textColor="#ffffff"
+                    android:text="Cardio Speclist" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#4182FF">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="101dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    app:srcCompat="@drawable/health_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="130dp"
+                    android:textColor="#ffffff"
+                    android:text="Cardio Speclist" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                app:cardBackgroundColor="#FF4E6F"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="101dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    app:srcCompat="@drawable/health_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="130dp"
+                    android:textColor="#ffffff"
+                    android:text="Cardio Speclist" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#FFC633">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="101dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    app:srcCompat="@drawable/health_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="130dp"
+                    android:textColor="#ffffff"
+                    android:text="Cardio Speclist" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                app:cardBackgroundColor="#4182FF"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="101dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    app:srcCompat="@drawable/health_heart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="130dp"
+                    android:textColor="#ffffff"
+                    android:text="Cardio Speclist" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:onClick="btn_home"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/home"
+                android:background="@drawable/hii_top">
+
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="62dp"
+                android:src="@drawable/appointment"
+                android:background="@drawable/hii_top">
+
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/option"
+                android:background="@drawable/hii_top">
+
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/profile"
+                android:onClick="btn_profile"
+                android:background="@drawable/hii_top">
+
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>

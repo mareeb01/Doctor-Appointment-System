@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctors.doc_patient_detail"
+    android:background="#ffffff">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/joannab"
+                    android:layout_marginLeft="120dp"
+                    android:textColor="#000000"
+                    android:text="Patients"
+                    android:textSize="24dp">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="380dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="doc_profile"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="#ffffff">
+
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="91dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        app:srcCompat="@drawable/person" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginLeft="120dp"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/joannab"
+                        android:text="Patient Name" />
+
+                    <TextView
+                        android:id="@+id/age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="38dp"
+                        android:layout_marginLeft="120dp"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/jonalight"
+                        android:text="Age" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/joannab"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="Patient Problem"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/problem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicuelementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula"
+                    android:textSize="16dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/joannab"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="Phone no."
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="+923019320789"
+                    android:textSize="16dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/joannab"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="Gender"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="Male"
+                    android:textSize="16dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/joannab"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="Date and Time"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/jonalight"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:text="24-01-2024 12:00Am"
+                    android:textSize="16dp">
+
+                </TextView>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:id="@+id/imgview"
+                    android:src="@drawable/mimg"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/uploadmedicine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upload"
+                    android:textAllCaps="false"
+                    android:background="@drawable/btn_curves"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

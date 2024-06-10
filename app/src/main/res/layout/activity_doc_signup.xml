@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctors.doc_signup"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Doctor"
+                    android:textColor="#D53345"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" Appointment"
+                    android:textColor="#183E9F"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:text="System"
+                android:textColor="#1B9CE4"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:text="Sign Up to your account"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="35dp"
+                android:textColor="#000000"
+                android:text="Enter your Email:"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:textColor="#000000"
+                android:inputType="textWebEmailAddress"
+                android:textColorHint="#000000"
+                android:id="@+id/email"
+                android:paddingStart="10dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/et_input"
+                android:hint="   Email">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:text="Enter Your Password:"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:id="@+id/password"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:inputType="textPassword"
+                android:hint="   Password">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:text="Enter Your Name:"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   Name">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:text="About Us"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/about"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   About">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:text="Charges:"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/charges"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   Charges">
+
+            </com.google.android.material.textfield.TextInputEditText><TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="20dp"
+            android:text="Specilization:"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/specialization"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   Specilization">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:text="Working Hour Start:"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/workingHourS"
+                android:inputType="time"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   20:20 02:00 ">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:text="Working Hour End:"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/workingHourE"
+                android:inputType="time"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   20:20 02:00 ">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:text="Address:"
+                android:textColor="#000000"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/address"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="13dp"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textColorHint="#000000"
+                android:background="@drawable/et_input"
+                android:hint="   Address">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:onClick="registerNow"
+                android:layout_gravity="center"
+                android:layout_marginTop="26dp"
+                android:id="@+id/btn_register"
+                android:background="@drawable/btn_curves"
+                android:hint="Sign Up"
+                android:textColorHint="#ffffff"
+                android:textSize="18dp">
+
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:text="Have an account?"
+                android:textSize="18dp">
+
+            </TextView>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:onClick="doc_signin"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_curves"
+                android:hint="Sign In"
+                android:textColorHint="#ffffff"
+                android:textSize="18dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

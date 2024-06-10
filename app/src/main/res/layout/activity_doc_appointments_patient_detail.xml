@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctors.doc_appointments_patient_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/joannab"
+                android:layout_marginLeft="120dp"
+                android:textColor="#000000"
+                android:text="Patient Name"
+                android:textSize="24dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#ffffff">
+
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="91dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/person" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="120dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/joannab"
+                android:text="Patient Name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:layout_marginLeft="120dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:fontFamily="@font/jonalight"
+                android:text="Date/Time" />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="Small Description"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicuelementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="Medicine and Doses"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="20$"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/joannab"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="Last Appointment"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/jonalight"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="Mon - Fri, 08:00 AM - 05:00PM"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@drawable/btn_curves"
+            android:textColor="#ffffff"
+            android:hint="Upload"
+            android:fontFamily="@font/joannab"
+            android:textColorHint="#ffffff"
+            android:textSize="18dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
